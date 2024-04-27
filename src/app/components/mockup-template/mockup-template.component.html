@@ -1,0 +1,20 @@
+<div hlmCard>
+  <div hlmCardHeader>
+    <h3 hlmCardTitle>{{ cardTitle }}</h3>
+    <!-- <p hlmCardDescription>Card Description</p> -->
+  </div>
+
+  <div hlmCardContent class="flex flex-col gap-3">
+    <input type="file" hlmInput>
+    <div class="overflow-hidden rounded" [class]="getCardClass()">
+      <img src="../../../assets/images/Spongebob.jpg" alt="img here" class="h-full w-full object-cover rounded">
+    </div>
+  </div>
+
+  <!-- <div hlmCardFooter class="flex gap-2"> -->
+  <!--   <button hlmBtn variant="destructive">Destructive</button> -->
+  <!--   <button hlmBtn variant="secondary">Secondary</button> -->
+  <!--   <button hlmBtn>Button</button> -->
+  <!-- </div> -->
+
+</div>
